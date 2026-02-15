@@ -5649,16 +5649,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 205.74) (xy 125.73 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e8aa20-cec1-4294-aa1b-25a7ca2bfae8")
-	)
-	(wire
-		(pts
 			(xy 364.49 195.58) (xy 364.49 200.66)
 		)
 		(stroke
@@ -5719,16 +5709,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 205.74) (xy 114.3 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10014d15-67fb-40d0-9313-5c120b100789")
-	)
-	(wire
-		(pts
 			(xy 266.7 137.16) (xy 270.51 137.16)
 		)
 		(stroke
@@ -5766,16 +5746,6 @@
 			(type default)
 		)
 		(uuid "1158b3a9-6f6e-46c8-81a2-8ec832dbfee1")
-	)
-	(wire
-		(pts
-			(xy 255.27 207.01) (xy 261.62 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11744bb9-c416-46ef-9917-8a52f035a0b5")
 	)
 	(wire
 		(pts
@@ -6429,16 +6399,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 201.93) (xy 289.56 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39fbaca8-8733-4b40-90d6-7de70c55572a")
-	)
-	(wire
-		(pts
 			(xy 213.36 104.14) (xy 242.57 104.14)
 		)
 		(stroke
@@ -6706,16 +6666,6 @@
 			(type default)
 		)
 		(uuid "46422291-a666-47ce-8001-576deee6d55c")
-	)
-	(wire
-		(pts
-			(xy 118.11 214.63) (xy 118.11 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46590cb5-b706-41fa-84b4-70218a0ba786")
 	)
 	(wire
 		(pts
@@ -7269,16 +7219,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 195.58) (xy 289.56 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6303449d-f35d-454c-bf81-394e9c918f68")
-	)
-	(wire
-		(pts
 			(xy 146.05 55.88) (xy 146.05 44.45)
 		)
 		(stroke
@@ -7306,16 +7246,6 @@
 			(type default)
 		)
 		(uuid "6506d0a5-87a2-4e72-9c98-d55be695bbb4")
-	)
-	(wire
-		(pts
-			(xy 256.54 195.58) (xy 261.62 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65522234-cd59-4b74-89aa-aa66cde1880e")
 	)
 	(wire
 		(pts
@@ -7809,16 +7739,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 207.01) (xy 250.19 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b8a7591-42a3-4ceb-8aa6-5e762d1f29ab")
-	)
-	(wire
-		(pts
 			(xy 115.57 147.32) (xy 115.57 149.86)
 		)
 		(stroke
@@ -7869,16 +7789,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 201.93) (xy 379.73 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80504397-c0ae-4ad4-978c-ff5ef86db0b2")
-	)
-	(wire
-		(pts
 			(xy 111.76 219.71) (xy 127 219.71)
 		)
 		(stroke
@@ -7886,16 +7796,6 @@
 			(type default)
 		)
 		(uuid "818e4cd3-0089-4149-b388-cf92389c1ae0")
-	)
-	(wire
-		(pts
-			(xy 123.19 214.63) (xy 127 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ad70db-bf5d-473f-8323-15b8e167acc0")
 	)
 	(wire
 		(pts
@@ -9209,16 +9109,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 213.36) (xy 85.09 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf206994-1652-4cd7-a357-22d18a565b40")
-	)
-	(wire
-		(pts
 			(xy 283.21 161.29) (xy 312.42 161.29)
 		)
 		(stroke
@@ -9316,16 +9206,6 @@
 			(type default)
 		)
 		(uuid "c329501d-2afd-46fa-b5cc-a2734376e1c3")
-	)
-	(wire
-		(pts
-			(xy 379.73 196.85) (xy 379.73 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36918a2-3df1-49ba-80a8-0ab2b270eab9")
 	)
 	(wire
 		(pts
@@ -9959,16 +9839,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 205.74) (xy 85.09 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca5baf0-cdc1-4247-a721-491de23af0cf")
-	)
-	(wire
-		(pts
 			(xy 339.09 213.36) (xy 356.87 213.36)
 		)
 		(stroke
@@ -10066,26 +9936,6 @@
 			(type default)
 		)
 		(uuid "e11a77ae-6481-4837-b632-3587931add0f")
-	)
-	(wire
-		(pts
-			(xy 248.92 195.58) (xy 251.46 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1d78ff1-3399-4931-a135-5ef6642996dd")
-	)
-	(wire
-		(pts
-			(xy 341.63 204.47) (xy 344.17 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27e2bb1-4f02-40d5-acbb-067db887651a")
 	)
 	(wire
 		(pts
@@ -10226,16 +10076,6 @@
 			(type default)
 		)
 		(uuid "eb403fbc-2565-4281-9278-e55dc7d0f5dd")
-	)
-	(wire
-		(pts
-			(xy 341.63 195.58) (xy 342.9 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb59c9f5-0947-4211-a9c7-dff4c6c4b0ed")
 	)
 	(wire
 		(pts
@@ -10419,16 +10259,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 195.58) (xy 353.06 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4713fdc-cc8d-4633-817f-b592f3a37684")
-	)
-	(wire
-		(pts
 			(xy 68.58 165.1) (xy 91.44 165.1)
 		)
 		(stroke
@@ -10536,16 +10366,6 @@
 			(type default)
 		)
 		(uuid "fce24474-340b-41a9-8014-486aa0db3169")
-	)
-	(wire
-		(pts
-			(xy 349.25 204.47) (xy 353.06 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce781a9-2e7d-4a78-b9e8-7a3922c182d9")
 	)
 	(wire
 		(pts
@@ -14331,73 +14151,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3075899f-8bc3-4b78-b793-05d75cc9346f")
-		(property "Reference" "#PWR052"
-			(at 335.28 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 336.55 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c3ed72d-8f4e-4a11-bdba-883011b6ef2e")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 284.48 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14972,75 +14725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 119.38 205.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4654199b-e5f0-43df-ae93-a7193f1e0a21")
-		(property "Reference" "C24"
-			(at 125.222 202.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 125.984 204.216 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 119.38 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 119.38 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "831bfea7-a119-48b6-8317-f8e3e3cdd619")
-		)
-		(pin "1"
-			(uuid "ce4c3ce3-5f0e-43fa-baf5-9ca6beceea7c")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 152.4 82.55 0)
 		(unit 1)
@@ -15416,75 +15100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 379.73 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54b52b05-b7e9-4e76-accc-35bffec44c25")
-		(property "Reference" "C22"
-			(at 381.762 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 381 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 379.73 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 379.73 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01766b76-4112-4a36-a370-4d2d9b34e417")
-		)
-		(pin "1"
-			(uuid "c7f2c19f-a337-4556-9c51-fe90093b9ea1")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 208.28 64.77 0)
 		(mirror y)
@@ -15579,73 +15194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 289.56 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59f92be5-1846-4cb3-9fa9-93a236f75248")
-		(property "Reference" "#PWR056"
-			(at 289.56 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15159585-066c-40a2-9890-5da615389873")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 59.69 74.93 0)
 		(unit 1)
@@ -15711,75 +15259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 346.71 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d83b82a-06a4-4257-b560-18b219e889ef")
-		(property "Reference" "C23"
-			(at 351.536 203.454 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 353.314 205.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 346.71 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 346.71 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8e452b6-7bc4-49a7-947b-e03a40f6e3af")
-		)
-		(pin "1"
-			(uuid "8bd1009d-4523-4221-9b1b-e02716af0fa2")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 162.56 153.67 0)
 		(unit 1)
@@ -15839,73 +15318,6 @@
 			(project "AlexJ_bz_ArduinoGigaShield"
 				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 248.92 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "622dfe94-c4b5-44d2-bca6-cf7b7a48c86f")
-		(property "Reference" "#PWR051"
-			(at 248.92 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c13a4319-4d33-4b3d-b991-ede3d13f41ea")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16094,140 +15506,6 @@
 			(project "AlexJ_bz_ArduinoGigaShield"
 				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 341.63 204.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b168709-f96c-432a-9229-9aa2008ee6c0")
-		(property "Reference" "#PWR059"
-			(at 335.28 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 336.55 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8345ff6c-2ef1-4f79-86cf-92de28985b8b")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 379.73 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c65cb1f-a79a-41aa-bd23-050ca1ef4f0e")
-		(property "Reference" "#PWR057"
-			(at 379.73 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 379.73 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 379.73 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 379.73 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5bf0ed3-7d56-46ca-8924-fe24dd7529a8")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17448,144 +16726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 120.65 214.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cc0a162-2dae-49f3-a67a-65df7351ced9")
-		(property "Reference" "C27"
-			(at 126.492 211.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 127.254 213.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 120.65 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 120.65 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef350948-3c96-4df9-8c4d-fc23f786e193")
-		)
-		(pin "1"
-			(uuid "6dfbe42d-c599-4e10-b1b0-237aadb0a808")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 345.44 195.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dc191ce-6698-42f1-9734-f85a7dd47b3c")
-		(property "Reference" "C20"
-			(at 350.774 192.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 352.044 194.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 345.44 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 345.44 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc42e052-e9d2-45cb-ac2f-ca6fab981cb1")
-		)
-		(pin "1"
-			(uuid "dee8c933-0c20-44cd-9299-1c4f952a8b63")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x18_Odd_Even")
 		(at 176.53 238.76 0)
 		(unit 1)
@@ -17750,75 +16890,6 @@
 			(project "AlexJ_bz_ArduinoGigaShield"
 				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 252.73 207.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "910b5f00-d0dd-43a6-a439-4bb1b7f7c148")
-		(property "Reference" "C25"
-			(at 257.556 205.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 259.334 208.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 252.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b4b5c29-6d38-45f4-8f5a-77b1090ea27f")
-		)
-		(pin "1"
-			(uuid "1cc08085-ea4c-47ab-aa55-09ea843b9722")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -18022,75 +17093,6 @@
 			(project "AlexJ_bz_ArduinoGigaShield"
 				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 289.56 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97245291-27d2-433b-b834-6324c7e2b806")
-		(property "Reference" "C21"
-			(at 291.592 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 290.83 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 289.56 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 289.56 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 289.56 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e053c5e5-5f81-4ecc-a155-0e3c4f6f97c7")
-		)
-		(pin "1"
-			(uuid "0d57751a-bfd7-4a6e-972d-88961732289d")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19387,73 +18389,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9954483-1637-4368-ab04-1a8fc93fded7")
-		(property "Reference" "#PWR062"
-			(at 85.09 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "004789fe-9cfc-4a44-9d7a-45a6b410b89c")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 101.6 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20514,75 +19449,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 85.09 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e36bbb46-0f38-47fe-86dc-98a6e03451a8")
-		(property "Reference" "C26"
-			(at 87.122 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 86.36 212.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 85.09 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 85.09 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "147f2a7c-dc14-40ee-8029-279b27595cee")
-		)
-		(pin "1"
-			(uuid "9e3e5995-a001-43b1-97ff-92950fbfa687")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 119.38 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20775,142 +19641,6 @@
 			(project "AlexJ_bz_ArduinoGigaShield"
 				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 254 195.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea2516ee-03ac-4fb2-937f-c213f58f1fb2")
-		(property "Reference" "C19"
-			(at 258.826 194.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 260.604 197.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 254 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 254 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d11c658-51b2-44f5-9e8d-353d822f1d3e")
-		)
-		(pin "1"
-			(uuid "9e628e92-8a4e-4704-808c-2d69b220a4b0")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 247.65 207.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee37dc39-c7a9-4b11-89f5-97cfb8d62be5")
-		(property "Reference" "#PWR061"
-			(at 241.3 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca4ade8-ac5c-4adc-8ee6-7eedd8cefaa3")
-		)
-		(instances
-			(project "AlexJ_bz_ArduinoGigaShield"
-				(path "/67a14077-be20-4bb1-b549-0c77a9870ee0"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
