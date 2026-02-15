@@ -195,6 +195,35 @@ After all changes, run DRC to verify:
 - All power nets correctly assigned
 - DIR net connectivity from header to U5
 
+## Schematic Changes Completed (Text Edits)
+
+The following schematic changes have been applied directly to the `.kicad_sch` file:
+
+- U1–U5 lib_symbols replaced (SN74LVC541, SN74AHCT541, SN74LVC4245A)
+- U1–U5 lib_id, Value, Datasheet, Description properties updated
+- New lib_symbol definitions added with pin positions matching TXB0108PW layout
+- R1–R5 pull-up resistors removed (symbols, +3V3 power symbols, wires, junctions)
+- C19–C27 extra decoupling caps removed (symbols, GND power symbols, wires)
+- GND symbols added at 1OE and 2OE pin positions for U1–U4
+- GND symbol added at U5 OE_N (pin 23, new bottom pin)
+- +5V symbols replaced with GND at VCCB/2OE positions for U1–U3
+- +5V power symbol added at U4 VCC (was +3V3, AHCT541 needs 5V)
+- +3V3 power symbols restored at U1–U3, U5 VCC/VCCA positions
+- DATA_DIR net label added at U5 DIR pin and on Arduino D2 wire
+- Hidden GND pins 7, 17, 22 added to SN74LVC4245A lib_symbol
+- Silkscreen text changed from V0.1 to V0.2
+
+## Remaining KiCad GUI Work
+
+The following changes require the KiCad schematic editor:
+
+1. **U3/U4 unused channel rewiring**: Channels 5–8 on U3 and U4 currently have GPIO signals (PJ8, PA2, PA3, PA9, PA4, PA5, PB5, PB13) connected from v0.1. These bidirectional signals must be moved to U6–U9 (TXB0108PW), then A5–A8 inputs tied to GND and Y5–Y8 outputs marked no-connect.
+2. **PCB footprint change**: U5 footprint geometry must be changed from TSSOP-20 to TSSOP-24 (pad positions, courtyard, silkscreen).
+3. **PCB trace rerouting**: All signal traces to U1–U5 need rerouting for new IC pinouts. DIR trace from D2 header to U5.
+4. **PCB component removal**: Remove R1–R5 and C19–C27 footprints/pads from PCB layout.
+5. **PCB silkscreen**: Update IC reference labels, add DIR label.
+6. **DRC**: Run Design Rule Check after all changes.
+
 ## Gerber Regeneration
 
 After completing all KiCad changes:
