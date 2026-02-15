@@ -11969,7 +11969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC541"
 			(at 100.7267 88.9 0)
 			(effects
 				(font
@@ -11988,7 +11988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, 5V-Tolerant Inputs, TSSOP-20 (v0.2: replaces TXB0108PW for address bus A8-A15)"
 			(at 102.87 68.58 0)
 			(effects
 				(font
@@ -13241,7 +13241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC541"
 			(at 275.1933 86.36 0)
 			(effects
 				(font
@@ -13260,7 +13260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
 			(at 273.05 68.58 0)
 			(effects
 				(font
@@ -13269,7 +13269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, 5V-Tolerant Inputs, TSSOP-20 (v0.2: replaces TXB0108PW for address bus A0-A7)"
 			(at 273.05 66.04 0)
 			(effects
 				(font
@@ -13696,7 +13696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC541"
 			(at 278.892 128.27 0)
 			(effects
 				(font
@@ -13714,7 +13714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
 			(at 273.05 114.3 0)
 			(effects
 				(font
@@ -13723,7 +13723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, 5V-Tolerant Inputs, TSSOP-20 (v0.2: replaces TXB0108PW for control inputs MREQ/IORQ/RD/WR)"
 			(at 273.05 111.76 0)
 			(effects
 				(font
@@ -15882,7 +15882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC4245A"
 			(at 275.1933 179.07 0)
 			(effects
 				(font
@@ -15891,7 +15891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 273.05 177.8 0)
 			(effects
 				(font
@@ -15900,7 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc4245a.pdf"
 			(at 273.05 161.29 0)
 			(effects
 				(font
@@ -15909,7 +15909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-24 (v0.2: replaces TXB0108PW for data bus D0-D7, DIR pin on Arduino D2)"
 			(at 273.05 158.75 0)
 			(effects
 				(font
@@ -21026,7 +21026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74AHCT541"
 			(at 113.284 133.35 0)
 			(effects
 				(font
@@ -21044,7 +21044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct541.pdf"
 			(at 101.6 119.38 0)
 			(effects
 				(font
@@ -21053,7 +21053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, TTL-Compatible Inputs, TSSOP-20 (v0.2: replaces TXB0108PW for control outputs CLK/RESET/INT/NMI)"
 			(at 101.6 116.84 0)
 			(effects
 				(font

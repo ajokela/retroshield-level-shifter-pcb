@@ -262,7 +262,7 @@
 				)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC541"
 			(at 0 4.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -274,7 +274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -286,7 +286,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, 5V-Tolerant Inputs, TSSOP-20 (v0.2: control inputs MREQ/IORQ/RD/WR)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2615,7 +2615,7 @@
 				)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC541"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2627,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2639,7 +2639,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, 5V-Tolerant Inputs, TSSOP-20 (v0.2: address bus A8-A15)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4887,11 +4887,11 @@
 			)
 		)
 	)
-	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+	(footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "4e1e64c7-fd80-4151-9454-5a5231169daf")
 		(at 195.78 45.69 90)
-		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "TSSOP, 24 Pin (4.4x7.8mm, 0.65mm pitch), v0.2 replacement for TXB0108PW - SN74LVC4245A bidirectional bus transceiver with DIR pin")
 		(tags "TSSOP SO")
 		(property "Reference" "U5"
 			(at 0 -4.2 90)
@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC4245A"
 			(at 0 4.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4917,7 +4917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc4245a.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4929,7 +4929,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-24 (v0.2: data bus D0-D7, DIR on Arduino D2)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4941,7 +4941,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
+		(property ki_fp_filters "TSSOP*4.4x7.8mm*P0.65mm*")
 		(path "/7727bda9-522c-4d1f-9326-bd6bd2514746")
 		(sheetname "/")
 		(sheetfile "AlexJ_bz_ArduinoGigaShield.kicad_sch")
@@ -7094,7 +7094,7 @@
 				)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74AHCT541"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7106,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct541.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7118,7 +7118,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, TTL-Compatible Inputs, TSSOP-20 (v0.2: control outputs CLK/RESET/INT/NMI)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14199,7 +14199,7 @@
 				)
 			)
 		)
-		(property "Value" "TXB0108PW"
+		(property "Value" "SN74LVC541"
 			(at 0 4.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14211,7 +14211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14223,7 +14223,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-20"
+		(property "Description" "Octal Buffer/Driver With 3-State Outputs, 5V-Tolerant Inputs, TSSOP-20 (v0.2: address bus A0-A7)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17457,7 +17457,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ARDUINO GIGA R1 SHIELD V0.1"
+	(gr_text "ARDUINO GIGA R1 SHIELD V0.2"
 		(at 111.77 94.26 90)
 		(layer "F.SilkS")
 		(uuid "fe3ad400-fd4f-4c60-991f-3c9286ffdb15")
