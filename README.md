@@ -8,35 +8,52 @@ KiCad design files for a bidirectional 3.3V-to-5V level converter shield that si
 
 ## Design Overview
 
-The shield uses nine **TXB0108PW** 8-bit bidirectional level converter ICs, providing 72 channels of voltage translation. The TXB0108 uses automatic direction sensing — it detects which side is driving each signal and translates accordingly.
+**Version:** V0.2
+
+V0.1 used nine identical TXB0108PW auto-direction-sensing level translators. In practice, the TXB0108's direction sensing failed for several Z80 bus signals: `IORQ_N` and `RD_N` were stuck HIGH, the data bus was invisible during IO writes, and `WR_N` was unreliable during IO cycles. The firmware worked around these failures with ~1,300 lines of shadow register tracking code.
+
+V0.2 replaces 5 of the 9 TXB0108s with purpose-matched ICs that have explicit direction control, eliminating these failures entirely:
+
+| Position | IC | Package | Role |
+|----------|---|---------|------|
+| U1, U2, U3 | **SN74LVC541** | TSSOP-20 | Address bus + control inputs (5V→3.3V) |
+| U4 | **SN74AHCT541** | TSSOP-20 | Control outputs (3.3V→5V) |
+| U5 | **SN74LVC4245A** | TSSOP-24 | Data bus (bidirectional, explicit DIR) |
+| U6–U9 | TXB0108PW | TSSOP-20 | Pass-through GPIO (unchanged) |
 
 **Board specifications:**
 - **Dimensions:** 155mm x 90mm (matches Arduino Giga R1 footprint)
 - **Layers:** 2-layer PCB
-- **Level shifter ICs:** 9x TXB0108PW (TSSOP-20)
 - **Signals translated:** 72 channels covering data bus, address bus, and control signals
-- **Version:** V0.1
+- **DIR pin:** Arduino D2 → U5 pin 2 (controls data bus direction)
 
 ### Signal Groups
 
-| Signal Group | Pins | Channels | Direction |
-|-------------|------|----------|-----------|
-| Data bus D0–D7 | D42–D49 | 8 | Bidirectional |
-| Address bus A0–A7 | D22–D29 | 8 | Z80 → Arduino (input) |
-| Address bus A8–A15 | D30–D37 | 8 | Z80 → Arduino (input) |
-| Control (MREQ, WR, IORQ, RD) | D39–D41, D53 | 4 | Z80 → Arduino (input) |
-| Control (RESET, INT, NMI, CLK) | D38, D50–D52 | 4 | Arduino → Z80 (output) |
-| Remaining GPIO | Various | 40 | Bidirectional |
+| Signal Group | Pins | Channels | Direction | IC |
+|-------------|------|----------|-----------|-----|
+| Address bus A0–A7 | D22–D29 | 8 | Z80 → Arduino (5V→3.3V) | U1 (74LVC541) |
+| Address bus A8–A15 | D30–D37 | 8 | Z80 → Arduino (5V→3.3V) | U2 (74LVC541) |
+| Control (MREQ, IORQ, RD, WR) | D39–D41, D53 | 4 | Z80 → Arduino (5V→3.3V) | U3 (74LVC541) |
+| Control (CLK, RESET, INT, NMI) | D38, D50–D52 | 4 | Arduino → Z80 (3.3V→5V) | U4 (74AHCT541) |
+| Data bus D0–D7 | D42–D49 | 8 | Bidirectional (DIR pin) | U5 (SN74LVC4245A) |
+| Remaining GPIO | Various | 40 | Bidirectional (auto-sense) | U6–U9 (TXB0108) |
 
-### Known Limitations
+### IC Selection Rationale
 
-The TXB0108's auto-direction sensing fails for some Z80 bus signals in practice:
+- **74LVC541** (U1–U3): VCC=3.3V, inputs are 5V-tolerant. Unidirectional buffer — no direction sensing ambiguity. OE pins tied to GND (always enabled). No pull-up resistors needed.
+- **74AHCT541** (U4): VCC=5V, TTL-compatible inputs accept 3.3V drive levels. Unidirectional buffer for Arduino→Z80 control signals. OE pins tied to GND.
+- **SN74LVC4245A** (U5): VCCA=3.3V, VCCB=5V. Bidirectional transceiver with explicit DIR pin. DIR HIGH = A→B (Giga drives Z80 data bus), DIR LOW = B→A (Z80 drives Giga). OE tied to GND. DIR pin connected directly to Arduino D2 at 3.3V (does not go through a level shifter).
+- **TXB0108PW** (U6–U9): Retained for pass-through GPIO where auto-direction sensing works fine. OE pins pulled HIGH via 10K resistors to 3.3V.
 
-- **IORQ_N** (pin 39) — stuck HIGH; never toggles through the converter
-- **RD_N** (pin 53) — stuck HIGH; never toggles through the converter
-- **Data bus Z80→Arduino** — invisible during I/O write cycles
+### DIR Pin
 
-These failures are worked around in firmware via shadow register tracking. See the [companion firmware project](https://github.com/ajokela/retroshield-z80-cpm-giga) for details.
+The SN74LVC4245A (U5) requires one GPIO from the Giga for direction control:
+
+- **Arduino pin D2** (directly connected at 3.3V, no level shifter)
+- **DIR HIGH** → A→B: Giga drives Z80 data bus (memory/IO writes to Z80)
+- **DIR LOW** → B→A: Z80 drives Giga data bus (memory/IO reads from Z80)
+
+This single GPIO wire replaces the entire shadow register architecture from v0.1.
 
 ## Repository Contents
 
@@ -47,7 +64,7 @@ kicad/                  KiCad 8 source files
   ├── AlexJ_bz_ArduinoGigaShield.kicad_pcb    PCB layout
   └── AlexJ_bz_ArduinoGigaShield.kicad_prl    Project preferences
 
-gerber/                 Production-ready Gerber files
+gerber/                 Production-ready Gerber files (v0.1 — regenerate from KiCad for v0.2)
   ├── *-F_Cu.gbr           Front copper
   ├── *-B_Cu.gbr           Back copper
   ├── *-F_Mask.gbr         Front solder mask
@@ -63,12 +80,12 @@ gerber/                 Production-ready Gerber files
 
 bom/                    Bill of Materials
   ├── AlexJ_bz_ArduinoGigaShield.csv     CSV format
-  └── AlexJ_bz_ArduinoGigaShield.xlsx    Excel format
+  └── AlexJ_bz_ArduinoGigaShield.xlsx    Excel format (v0.1)
 
 cpl/                    Component Placement
   └── AlexJ_bz_ArduinoGigaShield-all-pos.csv   Pick & place positions
 
-schematic/              Schematic PDF
+schematic/              Schematic PDF (v0.1 — regenerate from KiCad for v0.2)
   └── AlexJ_bz_ArduinoGigaShield.pdf
 
 images/                 3D renders
@@ -76,21 +93,30 @@ images/                 3D renders
   ├── AlexJ_bz_ArduinoGigaShield_TOP.png       Top view (PNG)
   ├── AlexJ_bz_ArduinoGigaShield_BTM.jpg       Bottom view
   └── AlexJ_bz_ArduinoGigaShield.png           Perspective view
+
+CHANGES-V0.2.md         Detailed design changes for KiCad implementation
 ```
 
 ## Bill of Materials
 
 | Reference | Qty | Value | Part Number | Package |
 |-----------|-----|-------|-------------|---------|
-| U1–U9 | 9 | TXB0108PW | TXB0108PWR | TSSOP-20 |
-| C1–C27 | 27 | 0.1 uF | CC0603KRX7R9BB104 | 0603 |
-| R1–R9 | 9 | 10K | RC0603FR-0710KL | 0603 |
+| U1, U2, U3 | 3 | SN74LVC541 | SN74LVC541PWR | TSSOP-20 |
+| U4 | 1 | SN74AHCT541 | SN74AHCT541PWR | TSSOP-20 |
+| U5 | 1 | SN74LVC4245A | SN74LVC4245APWR | TSSOP-24 |
+| U6–U9 | 4 | TXB0108PW | TXB0108PWR | TSSOP-20 |
+| C1–C18 | 18 | 0.1 uF | CC0603KRX7R9BB104 | 0603 |
+| R6–R9 | 4 | 10K | RC0603FR-0710KL | 0603 |
 
-Each TXB0108 has a 0.1 uF decoupling capacitor on both VCCA (3.3V) and VCCB (5V) power pins. The 10K pull-up resistors tie the OE (Output Enable) pins to 3.3V.
+**Cap breakdown:** U1–U3 get 1 cap each (VCC only, single supply), U4 gets 1 cap (VCC only), U5 gets 2 caps (VCCA + VCCB), U6–U9 get 3 caps each (VCCA + VCCB + extra) = 3 + 1 + 2 + 12 = 18 caps.
+
+**Resistors:** R6–R9 are 10K pull-ups on OE pins for U6–U9 (TXB0108). R1–R5 from v0.1 are removed — the 74LVC541, 74AHCT541, and SN74LVC4245A have their OE pins tied directly to GND.
 
 ## Manufacturing
 
-The Gerber files in `gerber/` can be uploaded directly to any PCB fabrication service:
+The Gerber files in `gerber/` are from v0.1. After the KiCad schematic and PCB are updated for v0.2, regenerate Gerbers before ordering.
+
+Upload to any PCB fabrication service:
 
 - [PCBWay](https://www.pcbway.com/)
 - [JLCPCB](https://jlcpcb.com/)
@@ -111,10 +137,11 @@ For SMD assembly, provide the BOM (`bom/`) and component placement file (`cpl/`)
 
 ## Assembly Notes
 
-1. **SMD components first** — solder the TXB0108PW ICs, decoupling capacitors, and pull-up resistors
+1. **SMD components first** — solder the ICs, decoupling capacitors, and pull-up resistors
 2. **Pin headers last** — solder the through-hole pin headers (female on bottom for the Giga, male on top for the RetroShield)
-3. **Power jumper** — a jumper wire connects the Giga's 3.3V output to the shield's VCCA rail (visible in assembly photos)
-4. **Orientation** — the shield silkscreen is labeled "ARDUINO GIGA R1 SHIELD V0.1" with pin numbers matching the Giga's header layout
+3. **Power jumper** — a jumper wire connects the Giga's 3.3V output to the shield's VCCA rail
+4. **DIR wire** — connect Arduino D2 to U5 pin 2 (DIR) if not routed on the PCB
+5. **Orientation** — check silkscreen for "V0.2" and IC labels; U5 is the wider TSSOP-24 package
 
 ## Photos
 
