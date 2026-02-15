@@ -1,0 +1,31 @@
+# KiCad backup and autosave files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+*autosave*
+*.bck
+fp-info-cache
+
+# KiCad lock files
+*.lck
+
+# KiCad generated files (can regenerate)
+*-cache.lib
+*.net
+*.dsn
+*.ses
+
+# ERC/DRC reports
+ERC_check.rpt
+ERC.rpt
+DRC.rpt
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
